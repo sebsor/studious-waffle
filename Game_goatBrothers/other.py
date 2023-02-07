@@ -9,7 +9,7 @@ def randomD20() :
 
 
 
-import threading
+# import threading
 # playInputTest = ''
 
 # def functionOne() :
@@ -33,20 +33,20 @@ import threading
 # def functionTwo() :
 #   print('Ska inte komma förrän första kört klart.')
 
-def functionOne():
-  while True:
-      playInputTest = input('Vad heter du?\n')
-      if playInputTest:
-        print('Hello',playInputTest)
-        break
-      else:
-        print("Vad sa du att du hette nu igen?")
+# def functionOne():
+#   while True:
+#       playInputTest = input('Vad heter du?\n')
+#       if playInputTest:
+#         print('Hello',playInputTest)
+#         break
+#       else:
+#         print("Vad sa du att du hette nu igen?")
 
-def functionTwo() :
-  print('Ska inte komma förrän första kört klart.')
+# def functionTwo() :
+#   print('Ska inte komma förrän första kört klart.')
 
-t1 = threading.Thread(target=functionOne)
-t2 = threading.Thread(target=functionTwo)
-t1.start()
-t1.join()
-t2.start()
+# t1 = threading.Thread(target=functionOne)
+# t2 = threading.Thread(target=functionTwo)
+# t1.start()
+# t1.join()
+# t2.start()
